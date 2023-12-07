@@ -19,6 +19,8 @@ The system combines several techniques within the computer vision area in order 
 
 5. **Change detection** compares the binarized image with a stored model of the current binarized whiteboard. As the presenter has been removed from the frame, changes in this area are ignored. Remaining changes are registered into the current binarized whiteboard model.
 
+<img src="./doc/image_processing_pipeline.png" width="400" />
+
 ## Dependencies
 
 - TensorFlow Lite Task Library v0.1.0
